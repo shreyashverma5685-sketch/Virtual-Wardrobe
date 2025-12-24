@@ -1,0 +1,29 @@
+.Header{
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.wardrobe-main {
+  padding: 20px;
+}
+
+.wardrobe-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.placeholder {
+  color: gray;
+  font-style: italic;
+}
+
+/* 
+.All-options{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+} */

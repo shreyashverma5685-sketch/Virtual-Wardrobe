@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Suggestion Page</title>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="suggest.css">
+    <style>
+      
+      
+    </style>
+  </head>
+  <body>
+   
+    <header class="navbar">
+    <h1>👕 Virtual Wardrobe</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="wardrobe.html">My Wardrobe</a>
+      <a href="suggest.html">Suggestions</a>
+    </nav>
+    </header>
+
+    <main class="suggest-main">
+    <h2>Outfit Suggestions</h2>
+    <p>Select occasion and weather to get a suggestion.</p>
+    <select id="occasion">
+      <option value="">Occasion</option>
+      <option value="Casual">Casual</option>
+      <option value="Formal">Formal</option>
+      <option value="Party">Party</option>
+      <option value="Sports">Sports</option>
+    </select>
+    <select id="weather">
+      <option value="">Weather</option>
+      <option value="Hot">Hot</option>
+      <option value="Cold">Cold</option>
+      <option value="Rainy">Rainy</option>
+    </select>
+    <button id="suggestBtn">Suggest Outfit</button>
+    <div id="suggestedOutfit" class="suggested-outfit">
+      <p class="placeholder">Your outfit will appear here.</p>
+    </div>
+  </main>
+
+
+    <!-- <script src="calculator.js"></script> -->
+  </body>
+
